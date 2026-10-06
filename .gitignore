@@ -1,0 +1,16 @@
+# .gitignore
+
+.venv/
+
+__pycache__/
+*.py[cod]
+
+.idea/
+
+*.log
+
+# Ignore .env file containing sensitive information
+.env
+
+# Cache directory for FAISS/BM25 indexes
+cache/
